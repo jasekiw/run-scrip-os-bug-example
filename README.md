@@ -29,6 +29,8 @@ npm ERR! This is probably not a problem with npm. There is likely additional log
 
 ```
 
+Look at the package.json to see how it is set up.
+
 It is basing the npm script off of the install and not the prepare command that it was put under.
 
 
