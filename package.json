@@ -1,0 +1,17 @@
+{
+  "name": "run-scrip-os-bug-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "run-script-os",
+    "prepare:macos": "echo Macos!",
+    "prepare:win32": "echo Windows!"
+  },
+  "author": "Jason Gallavin <jasongallavin@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "run-script-os": "^1.0.7"
+  }
+}
